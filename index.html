@@ -1,9 +1,9 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
+[yes ] Three Distinct CSS font-family Declarations
 [ ] Five CSS Rules
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
-[ ] Three Images
+[yes ] An Unordered **or** Ordered List (<ul> or <ol>)
+[yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Fill Text with Image Background 
@@ -19,28 +19,95 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
-  <style>
+ <style>
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+   }
 
-  </style>
+   h1 {
+     font-family: Verdana, Geneva, sans-serif;
+     color: white;
+     text-shadow:
+       0 0 5px #5bbcff,
+       0 0 10px #5bbcff,
+       0 0 20px #008cff;
+   }
+
+   .zanpakuto {
+     font-family: Georgia, "Times New Roman", serif;
+   }
+
+   .zanpakuto h3 {
+     color: white;
+     text-shadow:
+       0 0 5px #ff4d4d,
+       0 0 10px #ff1a1a,
+       0 0 20px #cc0000;
+   }
+
+   .shikai {
+     font-family: "Courier New", Courier, monospace;
+   }
+
+   .shikai h3 {
+     color: white;
+     text-shadow:
+       0 0 5px #63ff63,
+       0 0 10px #39e639,
+       0 0 20px #00a800;
+   }
+
+   .bankai {
+     font-family: "Trebuchet MS", Arial, sans-serif;
+   }
+
+   .bankai h3 {
+     color: white;
+     text-shadow:
+       0 0 5px #d580ff,
+       0 0 10px #b64cff,
+       0 0 20px #7f00ff;
+   }
+ </style>
 </head>
 <body>
 
+
+
   <h1>My Unofficial Local Guide to Bleach</h1>
-  Zanpakuto is the form that a shinigami, or soul reaper first gets their weapon in. It is a sword that is unique to each shinigami and has its own personality. The zanpakuto can be used in its sealed form, but it can also be released into its shikai and bankai forms, which are more powerful.
+  <ul>
+  <li>
+  <section class="zanpakuto">
   <h3>Zanpakuto</h3>
+  <img src="https://preview.redd.it/if-you-were-a-shinigami-in-bleach-what-would-your-zanpakuto-v0-dkpnp7qjnx4d1.jpeg?auto=webp&s=2543c354e05c4b9962ae32b55809b26b5504551d" width="200"
   <hr>
-  <p></p>
+  <p>  Zanpakuto is the form that a shinigami, or soul reaper first gets their weapon in. It is a sword that is unique to each shinigami and has its own personality. The zanpakuto can be used in its sealed form, but it can also be released into its shikai and bankai forms, which are more powerful.
+</p>
   <br><br>
+  </section>
+  </li>
 
+  <li>
+  <section class="shikai">
   <h3>Shikai</h3>
+  <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/collage-maker-17-jan-2023-01-49-pm.jpg"  width="200">
   <hr>
-  <p>About Content Element #2</p>
+  <p>A characters shikai is the first awakaned form of their zanpakuto, when they finally are in contact with their spirit. A shikai is a powerful ability that allows the user to control their zanpakuto in a more advanced way.
+</p>
   <br><br>
+  </section>
+  </li>
 
+  <li>
+  <section class="bankai">
   <h3>Bankai</h3>
   <hr>
-  <p>About Content Element #3</p>
+  <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/08/screenshot-2025-08-06-at-09-27-45-cropped.png?w=1600&h=900&fit=crop" width="200">
+  <p>Bankai is the most powerful form of a zanpakuto. It the outermost projection of the user's spiritual power and being intune with oneself. For some, it is a an amplification of their shikai, and for others it is a completely new set of skills, technique, or abilities.</p>
   <br><br>
+  </section>
+  </li>
+  </ul>
 
 </body>
 </html>
